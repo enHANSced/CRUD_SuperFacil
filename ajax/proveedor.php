@@ -68,13 +68,13 @@
 					values('$idproveedor','$nombre','$direccion','$telefono','$Ciudad','$contacto','$nota','$email_contacto','1')";
 						$resp=$tbl_proveedores->insertar($sql);
 
-				echo $resp ?" El proveedor se inserto correctante ": " No se puedo realizar";
+				echo $resp ?" El proveedor se insertó correctamente ": " No se puedo realizar";
 
 				}else
 				{
 					$sql="update tbl_proveedores set idproveedor='$idproveedor',nombre='$nombre',direccion='$direccion',telefono='$telefono',Ciudad='$Ciudad',contacto='$contacto',nota='$nota',email_contacto='$email_contacto' where idprov='$idprov'";
 						$resp=$tbl_proveedores->insertar($sql);
-echo $resp ?" El proveedor se edito correctante ": " No se puedo realizar la edición";
+echo $resp ?" El proveedor se editó correctamente ": " No se puedo realizar la edición";
 
 				}
 

@@ -57,13 +57,13 @@
 					values('$nombre','$descripcion','1')";
 						$resp=$categoria->insertar($sql);
 
-				echo $resp ?" La categoria se inserto correctante ": " No se puedo realizar";
+				echo $resp ?" La categoria se insertó correctamente ": " No se pudo realizar";
 
 				}else
 				{
 					$sql="update categoria set categoria='$nombre',descripcion='$descripcion' where idcategoria='$idcategoria'";
 						$resp=$categoria->insertar($sql);
-echo $resp ?" La categoria se edito correctante ": " No se puedo realizar la edición";
+echo $resp ?" La categoria se editó correctamente ": " No se puedo realizar la edición";
 
 				}
 
