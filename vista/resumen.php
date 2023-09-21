@@ -8,7 +8,7 @@
     <div class="container-fluid">
     <div class="row mb-2">
     <div class="col-sm-6">
-    <h1 style="color: grey; font-size: 50px"><a href="SuperLogo.png"><img src="SuperLogo.png" 
+    <h1 style="color: grey; font-size: 50px"><a href="recursos/SuperLogo.png"><img src="recursos/SuperLogo.png" 
     alt="SuperFacil Logo" class="img-circle" width="30%" style="border: 4px solid grey; margin-right: 10px;">
     </a><b>Super</b>Fácil</h1>
     
@@ -73,8 +73,8 @@
     </div>
     </div>
     <div class="card-body">
-    <a href="SuperFachada.png" target="_blank">
-    <img src="SuperFachada.png" alt="SuperFacil Local" width="56%" 
+    <a href="recursos/SuperFachada.png" target="_blank">
+    <img src="recursos/SuperFachada.png" alt="SuperFacil Local" width="56%" 
     style="border: 4px solid grey; border-radius: 10px; padding: 10px; display: block; margin-left: auto; margin-right: auto;">
     </a>
 </div>

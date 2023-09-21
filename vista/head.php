@@ -54,7 +54,7 @@ if (strlen(session_id()) < 1)
   <div class="preloader flex-column justify-content-center align-items-center">
   <img class="img-circle elevation-2" src="../files/usuarios/<?php echo $_SESSION["imagen"]; ?>" alt="User profile picture" width="10%" style="display: block; margin-left"> 
   <h1 style="color: grey; font-weight: bold; text-align: center; font-size: 50px"><?php echo $_SESSION["nousuario"]; ?>, Bienvenido(a)!</h1>
-  <img class="animation__shake img-circle elevation-2" src="SuperLogo.png" alt="AdminLTELogo" height="60%" width="30%">
+  <img class="animation__shake img-circle elevation-2" src="recursos/SuperLogo.png" alt="SuperFacilLogo" height="60%" width="30%">
   </div>
 
   <!-- Navbar -->
@@ -98,7 +98,7 @@ if (strlen(session_id()) < 1)
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="resumen.php" class="brand-link">
-      <img src="SuperLogo.png" alt="SuperFacil Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="recursos/SuperLogo.png" alt="SuperFacil Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light"><b>Super</b>Fácil</span>
      
     </a>
