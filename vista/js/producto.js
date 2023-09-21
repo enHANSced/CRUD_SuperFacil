@@ -88,7 +88,7 @@ $.post("../ajax/producto.php?opc=mostrar",{id : id}, function(data, status)
 		data = JSON.parse(data);		
 		
 		//alert(data.categoria);
-
+		$("#id").val(data.id);
 		$("#codigo").val(data.codigo);
 		$("#descripcion").val(data.descripcion);
  		$("#cantidad").val(data.cantidad);
@@ -96,10 +96,10 @@ $.post("../ajax/producto.php?opc=mostrar",{id : id}, function(data, status)
 		$("#impuesto_id").val(data.impuesto_id);
 		$("#catesele").val(data.producto_categoria_id);
 		$("#provsele").val(data.proveedor_id);
- 		$("#id").val(data.id);
+ 		
  	//	$("#estante").val(data.estante);
 
-	document.getElementById("codigo").setAttribute("disabled", "disabled");
+	//document.getElementById("codigo").setAttribute("disabled", "disabled");
 
  	})
 }

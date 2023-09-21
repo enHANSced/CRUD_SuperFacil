@@ -20,8 +20,8 @@
   
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="../../index2.html" class="h3"><b>SUPER</b>FÁCIL</a>
-      <img src="SuperLogo.png" alt="SuperFacil Logo" width="50%">
+      <a href="#" class="h3"><b>SUPER</b>FÁCIL</a>
+      <img src="recursos/SuperLogo.png" alt="SuperFacil Logo" width="50%">
     </div>
     <div class="card-body">
       <p class="login-box-msg">Iniciar sesión</p>
